@@ -1,0 +1,29 @@
+html {
+    background-color: rgb(216, 174, 255);}
+
+
+.site-links {
+background-color: green;
+list-style-type: none;
+padding:0;
+display: flex;
+gap:10px ;
+}
+
+.site-link {
+
+
+background-color: aqua;
+padding: 10px;
+color:brown;
+text-decoration: none;
+border-radius: 10 px;
+display: inline-block;
+}
+
+.site-link:hover {
+
+
+background-color: lightcoral ;
+
+}
