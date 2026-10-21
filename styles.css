@@ -1,29 +1,64 @@
 html {
-    background-color: rgb(216, 174, 255);}
-
-
-.site-links {
-background-color: green;
-list-style-type: none;
-padding:0;
-display: flex;
-gap:10px ;
+    background-color: whitesmoke;
+    font-family: Lato;
 }
 
-.site-link {
+.wrapper {
 
+    max-width: 700px;
+    margin: 30px auto 0px auto;
 
-background-color: aqua;
+    
+}
+
+body {
+    margin: 0px;
+}
+
+.site-header {
+
+background-color: pink;
 padding: 10px;
-color:brown;
-text-decoration: none;
-border-radius: 10 px;
-display: inline-block;
+margin-top: 20px;
+margin-bottom: 10px;
 }
 
-.site-link:hover {
+.two-colum {
+
+display: flex;
+gap: 10px;
+
+margin: 10px 0;
+}
+
+.sidebar {
+
+background-color: aquamarine;
+padding: 10px;
+flex: 0px 0px 200px;
 
 
-background-color: lightcoral ;
+}
+.site-main {
 
+background-color: yellow;
+padding: 10px;
+
+}
+
+
+
+.site-footer {
+
+background-color: pink;
+padding: 10px;
+
+
+
+}
+.site-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
 }
